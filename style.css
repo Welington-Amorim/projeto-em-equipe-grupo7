@@ -1,14 +1,11 @@
-img{    
-    width: 40%;
-    background-image: url(imagens/22a3d21d-e323-4ad4-961e-f3808d77c505.png);
+.logo {
+  display: flex;
+  justify-content: center; 
+  position: relative;
+  top: -60px; 
 
-    
-    
 }
-h2{
-    box-sizing: border-box;
-    
-}
-form{
-    
+.logo img {
+  height: 250px;  
+  width: auto;
 }
