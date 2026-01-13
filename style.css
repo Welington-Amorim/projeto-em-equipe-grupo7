@@ -1,11 +1,96 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* LOGO */
 .logo {
   display: flex;
-  justify-content: center; 
-  position: relative;
-  top: -60px; 
-
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px; /* aproxima como antes */
 }
+
 .logo img {
-  height: 250px;  
+  height: 250px;
   width: auto;
+}
+
+/* FAIXA DO TÍTULO */
+.faixa-titulo {
+  background-color: #003366;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faixa-titulo h2 {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+/* CARD */
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* FORMULÁRIO */
+.linha {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* BOTÃO */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003366;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055aa;
 }
