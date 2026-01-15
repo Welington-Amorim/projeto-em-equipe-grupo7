@@ -1,28 +1,18 @@
-.logo {
-  justify-content: center; 
-  position: relative;
-  top: -60px; 
+.topo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
+.logo-box {
+    background: #ffffff;
+    padding: 16px 24px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
-.logo img {
-  height: 250px;  
-  width: auto;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.lista {
-  display: flex;
-  gap: 20px;
-}
-.campo {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-.linha {
-  display: flex;
-  flex-direction: column;
+
+.logo-box img {
+    width: 220px;
+    height: auto;
+    display: block;
 }
